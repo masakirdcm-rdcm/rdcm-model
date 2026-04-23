@@ -1,2 +1,1 @@
-# rdcm-model
-RDCM: A minimal model for conditional convergence from persistent variability
+# Associated with: arXiv preprint (link to be added)
