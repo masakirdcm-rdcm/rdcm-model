@@ -10,6 +10,16 @@ This repository contains simulation code for RDCM, a minimal computational model
 - `phase.py` : generates phase diagram (Figure 3)
 
 ## Usage
-```bash
-python timeseries.py
-python phase.py
+
+python timeseries.py  
+python phase.py  
+
+## Notes
+- Results depend on stochastic inputs (random seed fixed for reproducibility)
+- Phase diagram is averaged over multiple runs
+
+## Associated Paper
+arXiv preprint (link to be added)
+
+## Author
+T. Masaki
