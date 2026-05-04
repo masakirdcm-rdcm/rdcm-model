@@ -37,8 +37,5 @@ python phase.py
 ## Associated Paper
 arXiv preprint (coming soon)
 
-## Associated Paper
-arXiv preprint (link to be added)
-
 ## Author
 T. Masaki
