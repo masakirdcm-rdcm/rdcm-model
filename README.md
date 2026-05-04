@@ -1,26 +1,44 @@
 # RDCM Model
 
-Minimal implementation of the Recursive Differentiation–Convergence Model (RDCM).
+A minimal computational model where **persistent error does not vanish but forms structure**.
 
 ## Overview
-This repository contains simulation and conceptual visualization code for RDCM, a minimal computational model describing how stable directional structure emerges from persistent variability.
+RDCM (Recursive Differentiation–Convergence Model) describes a non-standard convergence process:
+
+- Error is not minimized
+- Variability is preserved
+- Stable structure emerges from accumulated differences
+
+This repository provides minimal simulations demonstrating how dynamic systems can converge to structured patterns without eliminating fluctuations.
+
+## Demo (core idea)
+Depending on parameter settings:
+
+- Low variability → trivial uniform convergence  
+- Moderate variability → structured pattern formation (RDCM regime)  
+- High variability → collapse / chaos  
 
 ## Files
-- `fig1a.py` : generates conceptual diagram (Figure 1A)
-- `fig1b.py` : generates conceptual diagram (Figure 1B)
-- `timeseries.py` : generates time series (Figure 2)
-- `phase.py` : generates phase diagram (Figure 3)
+- `fig1a.py` : conceptual structure (Figure 1A)
+- `fig1b.py` : feedback structure (Figure 1B)
+- `timeseries.py` : temporal evolution
+- `phase.py` : phase-space behavior
 
 ## Usage
-python fig1a.py  
-python fig1b.py  
-python timeseries.py  
-python phase.py  
+```bash
+python timeseries.py
+python phase.py
+```
 
 ## Notes
-- Results depend on stochastic inputs (random seed fixed for reproducibility)
+- Stochastic process (fixed seed for reproducibility)
 - Phase diagram is averaged over multiple runs
 
+## Associated Paper
+arXiv preprint (coming soon)
+
+## Author
+T. Masaki
 ## Associated Paper
 arXiv preprint (link to be added)
 
